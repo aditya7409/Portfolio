@@ -1,0 +1,110 @@
+#headerImage{
+    height: 7vh;
+    border-radius: 26px;
+}
+.navElements,#basic-nav-dropdown{
+    color: wheat !important;
+}
+.navelements{
+  color: black;
+}
+#root{
+    background: black;
+}
+#sidebar{
+    border-radius: 40px;
+    background: gray;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 0.6vh;
+}
+.navElements:hover{
+  background: red;
+}
+.sidenavImg{
+    height: 85vh;
+    width: 100vw;
+}
+#sideContent{
+    margin-top: 4vw;
+    font-weight: bold;
+    color: wheat;
+}
+#resume{
+    background: white;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    height: 16vh;
+    border-radius: 33px;
+}
+#footerId{
+  border-radius: 5px;
+  border: 1px solid wheat;
+  color: wheat;
+  background: black;
+  text-align: center;
+  margin-top: 1vh;
+}
+#rightsideBar{
+    border: 1px solid wheat;
+    background: black;
+    border-radius: 20px;
+    
+}
+.qualificationsList{
+  height: 95vh;
+  width: auto;
+  color: wheat;
+  text-align: center;
+}
+.eduList{
+  margin-bottom: 5vh;
+  text-align: center;
+  justify-content: center;
+}
+.achType,.tcsAch{
+  justify-content: center;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  .socialIDs{
+    margin-top: 20vh;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
